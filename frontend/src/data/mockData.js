@@ -22,7 +22,7 @@ export const mockData = {
       // "🏆 Active participant in coding competitions",
       "🌱 Always learning new technologies and frameworks"
     ],
-    imageUrl: "https://cdn.corenexis.com/media?2ur2cy&2160H&p&b&4lcu.jpg"
+    imageUrl: "https://i.postimg.cc/zGq290Kj/IMG-20250714-WA0070-1.jpg"
   },
   skills: {
     title: "Technical Skills",

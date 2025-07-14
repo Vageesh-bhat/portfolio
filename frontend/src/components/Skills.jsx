@@ -128,9 +128,9 @@ const Skills = ({ data }) => {
         {/* Creative Stats Section */}
         <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-6">
           {[
-            { number: "20+", label: "Technologies", icon: "💻" },
+            { number: "5+", label: "Technologies", icon: "💻" },
             { number: "3+", label: "Years Experience", icon: "⏱️" },
-            { number: "15+", label: "Projects Built", icon: "🚀" },
+            { number: "4+", label: "Projects Built", icon: "🚀" },
             { number: "∞", label: "Learning Journey", icon: "📚" }
           ].map((stat, index) => (
             <div 

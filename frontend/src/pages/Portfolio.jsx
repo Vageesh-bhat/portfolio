@@ -67,7 +67,7 @@ const Portfolio = () => {
             Loading Portfolio
           </h2>
           <p className="text-gray-600 dark:text-gray-400">
-            Preparing something amazing for you...
+            Cooking something amazing for you...
           </p>
           <div className="flex justify-center mt-4 space-x-1">
             <div className="w-2 h-2 bg-blue-500 rounded-full animate-bounce"></div>
@@ -112,7 +112,7 @@ const Portfolio = () => {
         <Skills data={portfolioData.skills} />
         <Projects data={portfolioData.projects} />
         <Education data={portfolioData.education} />
-        <Experience data={portfolioData.experience} />
+        {/* <Experience data={portfolioData.experience} /> */}
         <Achievements data={portfolioData.achievements} />
         <Contact data={portfolioData.contact} />
         <Footer />

@@ -103,7 +103,7 @@ const Hero = ({ data }) => {
           </div>
 
           {/* Enhanced social links */}
-          <div className="flex justify-center space-x-6 mb-12">
+          <div className="flex justify-center space-x-10 mb-12">
             {[
               { icon: Github, href: data?.social_links?.github || "#", color: "hover:bg-gray-900" },
               { icon: Linkedin, href: data?.social_links?.linkedin || "#", color: "hover:bg-blue-600" },
@@ -126,7 +126,7 @@ const Hero = ({ data }) => {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-2xl mx-auto mb-12">
             {[
               { number: "3+", label: "Years of Coding" },
-              { number: "15+", label: "Projects Built" },
+              { number: "4+", label: "Projects Built" },
               { number: "5+", label: "Technologies" },
               { number: "∞", label: "Cups of Coffee" }
             ].map((stat, index) => (

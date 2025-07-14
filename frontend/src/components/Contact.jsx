@@ -132,7 +132,7 @@ const Contact = ({ data }) => {
             </Card>
           </div>
 
-          {/* Contact Form */}
+          {/* Contact Form
           <div>
             <Card className="group hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
               <CardContent className="p-8">
@@ -227,7 +227,7 @@ const Contact = ({ data }) => {
                 </form>
               </CardContent>
             </Card>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

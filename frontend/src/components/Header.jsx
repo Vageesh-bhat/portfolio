@@ -18,7 +18,7 @@ const Header = ({ darkMode, toggleDarkMode }) => {
     { name: 'Skills', href: '#skills' },
     { name: 'Projects', href: '#projects' },
     { name: 'Education', href: '#education' },
-    { name: 'Experience', href: '#experience' },
+    // { name: 'Experience', href: '#experience' },
     { name: 'Contact', href: '#contact' }
   ];
 

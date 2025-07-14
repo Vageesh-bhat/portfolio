@@ -77,7 +77,7 @@ const Achievements = ({ data }) => {
         <div className="mt-16 text-center">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="text-3xl font-bold text-blue-600 mb-2">10+</div>
+              <div className="text-3xl font-bold text-blue-600 mb-2">4+</div>
               <div className="text-gray-600 dark:text-gray-400">Projects Completed</div>
             </div>
             <div className="text-center">
@@ -89,7 +89,7 @@ const Achievements = ({ data }) => {
               <div className="text-gray-600 dark:text-gray-400">Awards Won</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-orange-600 mb-2">8.5</div>
+              <div className="text-3xl font-bold text-orange-600 mb-2">7.5</div>
               <div className="text-gray-600 dark:text-gray-400">CGPA</div>
             </div>
           </div>

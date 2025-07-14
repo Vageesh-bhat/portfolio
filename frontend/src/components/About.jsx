@@ -13,7 +13,7 @@ const About = ({ data }) => {
 
   // Multiple profile images for variety
   const profileImages = [
-    data?.image_url || "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face",
+    data?.image_url || "https://i.postimg.cc/zGq290Kj/IMG-20250714-WA0070-1.jpg",
     "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face",
     "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=400&fit=crop&crop=face"
   ];
@@ -27,7 +27,7 @@ const About = ({ data }) => {
 
   const funFacts = [
     "🌙 Night owl who codes best after midnight",
-    "☕ Powered by coffee and determination",
+    "☕ Powered by Tea and determination",
     "🎮 Gaming enthusiast who loves problem-solving",
     "🎵 Music lover who codes to lo-fi beats",
     "📱 Always exploring the latest tech trends"
@@ -110,9 +110,9 @@ const About = ({ data }) => {
                     <img
                       src={profileImages[currentImageIndex]}
                       alt="Profile"
-                      className="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-500"
+                      className="w-full h-100 object-cover group-hover:scale-110 transition-transform duration-500"
                       onError={(e) => {
-                        e.target.src = "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face";
+                        e.target.src = "https://i.postimg.cc/zGq290Kj/IMG-20250714-WA0070-1.jpg";
                       }}
                     />
                     
