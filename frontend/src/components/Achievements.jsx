@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card, CardContent } from './ui/card';
 import { Badge } from './ui/badge';
-import { Trophy, Medal, Award, Calendar } from 'lucide-react';
+import { Trophy, Medal, Award, Calendar, ExternalLink } from 'lucide-react';
 
 const Achievements = ({ data }) => {
   const getTypeIcon = (type) => {
@@ -41,14 +41,17 @@ const Achievements = ({ data }) => {
         </div>
 
         <div className="grid md:grid-cols-2 gap-8">
-          {(data || []).map((achievement, index) => (
-            <Card key={achievement.id} className="group hover:shadow-2xl transition-all duration-300 transform hover:scale-105 hover:-translate-y-2">
+          {(data || []).map((achievement) => (
+            <Card
+              key={achievement.id}
+              className="group hover:shadow-2xl transition-all duration-300 transform hover:scale-105 hover:-translate-y-2"
+            >
               <CardContent className="p-6">
                 <div className="flex items-start space-x-4">
                   <div className="flex-shrink-0 p-3 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full group-hover:scale-110 transition-transform duration-200">
                     {getTypeIcon(achievement.type)}
                   </div>
-                  
+
                   <div className="flex-1">
                     <div className="flex items-center justify-between mb-2">
                       <h3 className="text-lg font-semibold text-gray-800 dark:text-gray-200 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors duration-200">
@@ -58,11 +61,23 @@ const Achievements = ({ data }) => {
                         {achievement.type}
                       </Badge>
                     </div>
-                    
+
                     <p className="text-gray-600 dark:text-gray-400 mb-3 text-sm leading-relaxed">
                       {achievement.description}
                     </p>
-                    
+
+                    {achievement.link && (
+                      <a
+                        href={achievement.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center text-sm font-medium text-blue-600 hover:text-purple-600 dark:text-blue-400 dark:hover:text-purple-400 transition-colors mb-2"
+                      >
+                        <ExternalLink className="w-4 h-4 mr-1" />
+                        View Certificate
+                      </a>
+                    )}
+
                     <div className="flex items-center text-sm text-gray-500 dark:text-gray-400">
                       <Calendar className="w-4 h-4 mr-1" />
                       {achievement.date}

@@ -4,7 +4,7 @@ export const mockData = {
     title: "Computer Science Engineering Student",
     subtitle: "Full Stack Developer | AI Enthusiast | Problem Solver",
     description: "Passionate about creating innovative solutions through code. Currently pursuing my degree in Computer Science Engineering with a focus on modern web technologies and artificial intelligence.",
-    resumeUrl: "#", // Add your resume URL here
+    resumeUrl: "https://vageesh-cv.edgeone.app/Vageesh-Bhat-CV.pdf",// Add your resume URL here
     socialLinks: {
       github: "https://github.com/Vageesh-bhat",
       linkedin: "https://linkedin.com/in/vageesh-bhat",
@@ -132,40 +132,67 @@ export const mockData = {
   // ],
   achievements: [
     {
-      id: 1,
-      title: "Winner - University Hackathon 2024",
-      description: "Won first place in the annual university hackathon with an innovative AI-powered solution for sustainable energy management.",
-      date: "March 2024",
-      type: "Competition"
-    },
-    {
-      id: 2,
-      title: "Google Code Jam Participant",
-      description: "Qualified for Google Code Jam 2024 and ranked in top 500 participants globally.",
-      date: "April 2024",
-      type: "Competition"
-    },
-    {
-      id: 3,
-      title: "Dean's List",
-      description: "Achieved Dean's List recognition for academic excellence with CGPA above 9.0.",
-      date: "December 2023",
-      type: "Academic"
-    },
-    {
-      id: 4,
-      title: "AWS Cloud Practitioner Certified",
-      description: "Successfully completed AWS Cloud Practitioner certification demonstrating cloud computing knowledge.",
-      date: "August 2023",
-      type: "Certification"
-    }
+  id: 1,
+  title: "Microsoft Applied Skills: Secure storage for Azure Files and Azure Blob Storage Certified",
+  link: "https://learn.microsoft.com/api/credentials/share/en-us/Vageeshbhat2003/85064F20984E009?sharingId=749D09351EAF9479",
+  description: "Successfully completed Microsoft Applied Skills certification demonstrating Azure storage security knowledge.",
+  date: "July 2025",
+  type: "Certification"
+}, 
+{
+  id: 1,
+  title: "Infosys SpringBoard: Software Engineering & SDLC Phases Certified",
+  link: "https://infyspringboard.onwingspan.com/public-assets/infosysheadstart/cert/lex_auth_01350157953647411211271/1-a11436dc-f40b-46b7-bd01-9a93b603523c.pdf",
+  description: "Successfully studied Software Engineering concepts and SDLC phases to understand structured software development processes.",
+  date: "April 2025",
+  type: "Certification"
+},
+{
+  id: 2,
+  title: "Infosys SpringBoard: AI-first Software Engineering Certified",
+  link: "https://infyspringboard.onwingspan.com/public-assets/infosysheadstart/cert/lex_auth_0137283781200445441174_shared/1-71a0580a-0110-4d7a-a4bb-39660084a20b.pdf",
+  description: "Successfully completed certification on AI-first Software Engineering, emphasizing AI integration in modern software development practices.",
+  date: "April 2025",
+  type: "Certification"
+},
+
+
+    // {
+    //   id: 2,
+    //   title: "Winner - University Hackathon 2024",
+    //   description: "Won first place in the annual university hackathon with an innovative AI-powered solution for sustainable energy management.",
+    //   date: "March 2024",
+    //   type: "Competition"
+    // },
+    // {
+    //   id: 3,
+    //   title: "Google Code Jam Participant",
+    //   description: "Qualified for Google Code Jam 2024 and ranked in top 500 participants globally.",
+    //   date: "April 2024",
+    //   type: "Competition"
+    // },
+    // {
+    //   id: 4,
+    //   title: "Dean's List",
+    //   description: "Achieved Dean's List recognition for academic excellence with CGPA above 9.0.",
+    //   date: "December 2023",
+    //   type: "Academic"
+    // },
+    
+    // {
+    //   id: 4,
+    //   title: "AWS Cloud Practitioner Certified",
+    //   description: "Successfully completed AWS Cloud Practitioner certification demonstrating cloud computing knowledge.",
+    //   date: "August 2023",
+    //   type: "Certification"
+    // }
   ],
   contact: {
     title: "Get In Touch",
     description: "I'm always open to discussing new opportunities, interesting projects, or just having a chat about technology. Feel free to reach out!",
     email: "vageeshbhat2003@gmail.com",
     phone: "+91 8296139793",
-    location: "Mangalore, Karnataka, India",
+    location: "Mangalore, Karnataka, India" ,
     socialLinks: {
       github: "https://github.com/Vageesh-bhat",
       linkedin: "https://linkedin.com/in/vageesh-bhat",

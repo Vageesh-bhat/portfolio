@@ -81,7 +81,7 @@ const Hero = ({ data }) => {
           {/* Action buttons */}
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-12">
             <a
-              href={data?.resume_url || "#"}
+              href={data?.resume_url || "https://vageesh-cv.edgeone.app/Vageesh-Bhat-CV.pdf"}
               className="group relative inline-flex items-center px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full font-semibold hover:from-blue-700 hover:to-purple-700 transition-all duration-300 transform hover:scale-105 hover:shadow-2xl overflow-hidden"
             >
               <div className="absolute inset-0 bg-gradient-to-r from-blue-700 to-purple-700 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
@@ -105,10 +105,10 @@ const Hero = ({ data }) => {
           {/* Enhanced social links */}
           <div className="flex justify-center space-x-10 mb-12">
             {[
-              { icon: Github, href: data?.social_links?.github || "#", color: "hover:bg-gray-900" },
-              { icon: Linkedin, href: data?.social_links?.linkedin || "#", color: "hover:bg-blue-600" },
-              { icon: Twitter, href: data?.social_links?.twitter || "#", color: "hover:bg-blue-400" },
-              { icon: Mail, href: `mailto:${data?.social_links?.email || ""}`, color: "hover:bg-red-500" }
+              { icon: Github, href: "https://github.com/Vageesh-bhat" || "#", color: "hover:bg-gray-900" },
+              { icon: Linkedin, href:"https://linkedin.com/in/vageesh-bhat" || "#", color: "hover:bg-blue-600" },
+              // { icon: Twitter, href: data?.social_links?.twitter || "#", color: "hover:bg-blue-400" },
+              { icon: Mail, href: `mailto:${"vageeshbhat2003gmail.com" || ""}`, color: "hover:bg-red-500" }
             ].map((social, index) => (
               <a
                 key={index}

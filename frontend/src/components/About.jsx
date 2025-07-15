@@ -130,7 +130,7 @@ const About = ({ data }) => {
                   {/* Profile info overlay */}
                   <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent text-white">
                     <h3 className="text-xl font-bold mb-1">CSE Student</h3>
-                    <p className="text-sm opacity-90">Full Stack Developer</p>
+                    <p className="text-sm opacity-90">Tech Explorer</p>
                   </div>
                 </CardContent>
               </Card>
