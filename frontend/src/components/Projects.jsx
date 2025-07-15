@@ -185,7 +185,7 @@ const Projects = ({ data }) => {
               </p>
             </div>
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/Vageesh-bhat?tab=repositories"
               className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full font-semibold hover:from-blue-700 hover:to-purple-700 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
             >
               <Github className="w-5 h-5 mr-2" />
