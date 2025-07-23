@@ -41,7 +41,7 @@ export const mockData = {
       },
       {
         name: "Tools & Technologies",
-        skills: ["Git","GitHub","Microsoft Azure", "Docker", "Postman", "VS Code"]
+        skills: ["Git","GitHub","Microsoft Azure","AWS cloud", "Docker", "Postman", "VS Code"]
       },
       {
         name: "Soft Skills",

@@ -6,6 +6,7 @@ const Hero = ({ data }) => {
   const [isTyping, setIsTyping] = useState(true);
   
   const titles = [
+    "Cloud Enthusiast (AWS & Azure)",
     "Full Stack Developer",
     "AI Enthusiast", 
     "Problem Solver",
