@@ -4,7 +4,7 @@ export const mockData = {
     title: "Computer Science Engineering Student",
     subtitle: "Full Stack Developer | AI Enthusiast | Problem Solver",
     description: "Passionate about creating innovative solutions through code. Currently pursuing my degree in Computer Science Engineering with a focus on modern web technologies and artificial intelligence.",
-    resumeUrl: "https://vageesh-cv.edgeone.app/Vageesh-Bhat-CV.pdf",// Add your resume URL here
+    resumeUrl: "https://ik.imagekit.io/vageesh/Vageesh_bhat_cv.pdf?updatedAt=1753284646934",// Add your resume URL here
     socialLinks: {
       github: "https://github.com/Vageesh-bhat",
       linkedin: "https://linkedin.com/in/vageesh-bhat",

@@ -82,7 +82,7 @@ const Hero = ({ data }) => {
           {/* Action buttons */}
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-12">
             <a
-              href={data?.resume_url || "https://vageesh-cv.edgeone.app/Vageesh-Bhat-CV.pdf"}
+              href={data?.resume_url || "https://ik.imagekit.io/vageesh/Vageesh_bhat_cv.pdf?updatedAt=1753284646934"}
               className="group relative inline-flex items-center px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full font-semibold hover:from-blue-700 hover:to-purple-700 transition-all duration-300 transform hover:scale-105 hover:shadow-2xl overflow-hidden"
             >
               <div className="absolute inset-0 bg-gradient-to-r from-blue-700 to-purple-700 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
