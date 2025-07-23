@@ -13,7 +13,7 @@ const About = ({ data }) => {
 
   // Multiple profile images for variety
   const profileImages = [
-    data?.image_url || "https://i.postimg.cc/zGq290Kj/IMG-20250714-WA0070-1.jpg",
+    data?.image_url || "https://ik.imagekit.io/vageesh/v.jpg",
     "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face",
     "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=400&fit=crop&crop=face"
   ];

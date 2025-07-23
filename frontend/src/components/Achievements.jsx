@@ -104,7 +104,7 @@ const Achievements = ({ data }) => {
               <div className="text-gray-600 dark:text-gray-400">Awards Won</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-orange-600 mb-2">7.5</div>
+              <div className="text-3xl font-bold text-orange-600 mb-2">7.6</div>
               <div className="text-gray-600 dark:text-gray-400">CGPA</div>
             </div>
           </div>

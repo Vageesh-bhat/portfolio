@@ -86,7 +86,7 @@ export const mockData = {
       institution: "Sahyadri College Of Engineering and Management",
       location: "Mangalore, Karnataka",
       duration: "2022 - 2026",
-      cgpa: "7.5/10",
+      cgpa: "7.6/10",
       description: "Relevant coursework: Data Structures, Algorithms, Database Systems, Software Engineering, Machine Learning, Web Development"
     },
     {
